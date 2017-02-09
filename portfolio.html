@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <title>Portfolio - Sabrina Tee</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./assets/favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./styles/base.css">
+    <link rel="stylesheet" type="text/css" href="./styles/portfolio.css">
+    <link rel="stylesheet" href="./assets/font-awesome-4.7.0/css/font-awesome.min.css">
+  </head>​
+
+  <body>
+    <div class="blog-masthead">
+      <div class="container">
+        <img class="header-logo" src='./assets/sabrina-logo-black.png'/>
+        <nav class="blog-nav">
+          <a class="blog-nav-item" href="./main.html">HOME</a>
+          <a class="blog-nav-item" href="./about.html">ABOUT</a>
+          <a class="blog-nav-item active" href="#">PORTFOLIO</a>
+          <a class="blog-nav-item" href="./blog.html">BLOG</a>
+          <a class="blog-nav-item" href="./contact.html">CONTACT</a>
+        </nav>
+      </div>
+    </div>
+
+    <section id="portfolio">
+      <div class="container">
+        <div class="row">
+          <a class='portfolio-item' data-toggle="modal" data-target="#quikpollModal">
+            <img src="./assets/portfolio/quickpoll_logo.jpg" class="img-responsive" alt="">
+          </a>
+          <a class='portfolio-item' data-toggle="modal" data-target="#wasteNotModal">
+            <img src="./assets/portfolio/waste_not_logo.png" class="img-responsive" alt="">
+          </a>
+          <a class='portfolio-item' data-toggle="modal" data-target="#alfredModal">
+            <img src="./assets/portfolio/alfred_logo.png" class="img-responsive" alt="">
+          </a>
+          <a class='portfolio-item' data-toggle="modal" data-target="#sapheroModal">
+            <img src="./assets/portfolio/saphero_logo.png" class="img-responsive" alt="">
+          </a>
+        </div>
+        <div class="row">
+          <a class='portfolio-item' data-toggle="modal" data-target="#hogcModal">
+            <img src="./assets/portfolio/hogc_logo.png" class="img-responsive" alt="">
+          </a>
+          <a class='portfolio-item' data-toggle="modal" data-target="#weatherModal">
+            <img src="./assets/portfolio/weather_app_logo.png" class="img-responsive" alt="">
+          </a>
+          <a class='portfolio-item' data-toggle="modal" data-target="#searchAdventureModal">
+            <img src="./assets/portfolio/search_adventure_logo.png" class="img-responsive" alt="">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modals -->
+    <div class="modal fade" id="quikpollModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Quikpoll</h4>
+          </div>
+          <div class="modal-body">
+            <img src="./assets/portfolio/quickpoll_logo.jpg" class="modal-img" alt="">
+            <ul>
+              <li>
+                A polling platform that sends an SMS poll out to a group of users, quickly receives feedback, and immediately displays the results.
+              </li>
+              <li>
+                Currently being used internally at select companies.
+              </li>
+              <li>
+                Built with Express, Node.js, MongoDB, Angular, Twilio, Chart.js, Firebase and Webpack.
+              </li>
+              <p class='modal-links'><a href="https://quikpoll.co/" target="_blank">[website]</a><a href="https://github.com/sabbyt/quickpoll" target="_blank">[github]</a></p>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="wasteNotModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Waste Not</h4>
+          </div>
+          <div class="modal-body">
+            <img src="./assets/portfolio/waste_not_logo.png" class="modal-img" alt="">
+            <ul>
+              <li>
+                AngelHack Seattle 2016 Grand Prize Winner.
+              </li>
+              <li>
+                A platform that addresses consumer waste by connecting businesses to social and community organizations:- businesses can inventory items that they plan on throwing out and social and community organisations can claim these items for redistribution.
+              </li>
+              <li>
+                Built in 24 hours for AngelHack Seattle 2016 using Express, Node.js, MongoDB, React, Esri and Webpack.
+              </li>
+              <p class='modal-links'><a href="http://waste-not-beta.herokuapp.com/" target="_blank">[heroku beta]</a><a href="https://github.com/waste-not/waste-not" target="_blank">[github]</a></p>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="alfredModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Alfred - The Smart Mirror</h4>
+          </div>
+          <div class="modal-body">
+            <img src="./assets/portfolio/alfred_logo.png" class="modal-img" alt="">
+            <ul>
+              <li>
+                An IoT smart mirror built with JavaScript and Raspberry Pi:- a customisable client-side dashboard which pushes directly to the mirror display.
+              </li>
+              <li>
+                Built in four days using Electron, Express, Node.js, jQuery, Angular, MongoDB, Socket.IO, Sass, Gulp, Mocha, Chai and Webpack.
+              </li>
+              <p class='modal-links'><a href="http://alfred-new.herokuapp.com/" target="_blank">[heroku]</a><a href="https://github.com/alfred-mirror" target="_blank">[github]</a></p>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="sapheroModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Saphero</h4>
+          </div>
+          <div class="modal-body">
+            <img src="./assets/portfolio/saphero_logo.png" class="modal-img" alt="">
+            <ul>
+              <li>
+                A client-side dashboard that easily connects and controls Orbotix devices; 400+ npm downloads in the first month.
+              </li>
+              <li>
+                Built in four days using Sphero API, Node.js, Socket.IO, Express, Jade, Sass, Gulp, Mocha, Chai, Noble and Serialport.
+              </li>
+              <p class='modal-links'><a href="https://www.npmjs.com/package/saphero" target="_blank">[npm]</a><a href="https://github.com/saphero/sphero-hack" target="_blank">[github]</a></p>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="hogcModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">House of Gift Cards</h4>
+          </div>
+          <div class="modal-body">
+            <img src="./assets/portfolio/hogc_logo.png" class="modal-img" alt="">
+            <ul>
+              <li>
+                An app that aims to cut down the time and energy individually spent on giving:- a re-imagined web version of the ‘Giving Tree’.
+              </li>
+              <li>
+                Built in four days using jQuery, Express, Bootstrap, Chart,js, Firebase, Handlebars and Page.js.
+              </li>
+              <p class='modal-links'><a href="https://hogc.firebaseapp.com/" target="_blank">[heroku]</a><a href="https://github.com/sabbyt/house-of-gift-cards" target="_blank">[github]</a></p>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="weatherModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Simple Weather Underground App</h4>
+          </div>
+          <div class="modal-body">
+            <img src="./assets/portfolio/weather_app_logo.png" class="modal-img" alt="">
+            <ul>
+              <li>
+                A simple weather app built in vanilla JavaScript, Node.js and Express.
+              </li>
+              <p class='modal-links'><a href="https://sabrinatee-weather-app.herokuapp.com/" target="_blank">[heroku]</a><a href="https://github.com/sabbyt/weather-app" target="_blank">[github]</a></p>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="searchAdventureModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Search: Adventure</h4>
+          </div>
+          <div class="modal-body">
+            <img src="./assets/portfolio/search_adventure_logo.png" class="modal-img" alt="">
+            <ul>
+              <li>
+                A Wordpress travel blog.
+              </li>
+              <p class='modal-links'><a href="https://searchadventure.wordpress.com/" target="_blank">[wordpress]</a></p>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <a href="https://www.linkedin.com/in/sabrinatee" target="_blank"><i class="fa fa-linkedin fa-2x fa-fw" aria-hidden="true"></i></a>
+      <a href="https://github.com/sabbyt/" target="_blank"><i class="fa fa-github fa-2x fa-fw" aria-hidden="true"></i></a>
+      <a href= "mailto:sabrinatee@me.com"><i class="fa fa-envelope fa-2x fa-fw" aria-hidden="true"></i></a>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
