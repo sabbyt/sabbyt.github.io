@@ -1,0 +1,23 @@
+.about-content {
+  text-align:justify;
+  padding: 50px 100px 30px 100px;
+  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+          box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+}
+.about-content p {
+  padding-bottom: 10px;
+}
+.skills {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.skill-items {
+  display:inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  float:none;
+  max-height: 100px;
+}
+.icons {
+  margin-bottom: 30px;
+}
