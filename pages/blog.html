@@ -8,11 +8,11 @@
     <link rel="icon" type="image/png" href="../assets/favicon.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../styles/base.css">
+    <link rel="stylesheet" type="text/css" href="../styles/blog.css">
     <link rel="stylesheet" href="../assets/font-awesome-4.7.0/css/font-awesome.min.css">
   </head>​
 
   <body>
-
     <div class="blog-masthead">
       <div class="container">
         <img class="header-logo" src='../assets/sabrina-logo-black.png'/>
@@ -27,117 +27,68 @@
     </div>
 
     <div class="container">
-
-      <div class="blog-header">
-        <h1 class="blog-title">The Bootstrap Blog</h1>
-        <p class="lead blog-description">The official example template of creating a blog with Bootstrap.</p>
-      </div>
-
       <div class="row">
-
-        <div class="col-sm-8 blog-main">
-
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10 blog-main">
           <div class="blog-post">
-            <h2 class="blog-post-title">Sample blog post</h2>
-            <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
-
-            <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
+            <h2 class="blog-post-title">Holy Crap I Heart TypeScript</h2>
+            <p class="blog-post-meta">December 9, 2016</p>
             <hr>
-            <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+            <p class='blog-content'>Today was officially Day 7 as a junior developer. There was this saying at bootcamp that as junior devs we wouldn’t be writing any meaningful code for the first month at the company - so I honestly had the mindset going in that there would be a lot of hand-holding and peer-programming for the first couple of weeks. But from Day 1, I was thrown head first into the deep end. My first project was an internal calculator system for a bank…whattttt? Writing in TypeScript….whattttt? Needless to say, I was terrified to make any commits and was especially terrified because the sole developer who wrote the initial code is the CTO (aka my boss).</p>
+            <p class='blog-content'>However, he was incredibly patient; allowing me to bother him whenever I needed clarification or was stuck. It helps that he used to be a teacher and that does explain how he brought such clear explanations to his methodology and concepts. I guess it’s unfair for me to say I was thrown headfirst - I just felt a lot like this:</p>
+            <img class='blog-img' src='../assets/blog/typescript.jpg'/>
+            <p class='blog-content'>Brings me on to the next topic - holy crap I love <a href='https://www.typescriptlang.org/' target="_blank">TypeScript</a>. Why has no one told me about this?! I've heard the words TypeScript, CoffeeScript, *Script used in passing but no one grabbed me by the shoulders, shook me, and said <strong>'STOP WHAT YOU'RE DOING AND LEARN TYPESCRIPT RIGHT NOW'</strong>. I feel so cheated! I've been missing out on this experience for the last six months!!!</p>
+            <p class='blog-content'>So to those unfamiliar - what is TypeScript? It's an open source 'language' by Microsoft and is 'an optional type system for JavaScript'. When my boss started describing my new project - I heard the word 'TypeScript' and panicked. I didn't want to look incompetent on my first day and that would be hard to prove otherwise if I had to pick up a completely new language.</p>
             <blockquote>
-              <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p>Fear not folks: TypeScript == JavaScript + a layer that adds cool stuff/features!</p>
             </blockquote>
-            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-            <h2>Heading</h2>
-            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-            <h3>Sub-heading</h3>
-            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-            <pre><code>Example code block</code></pre>
-            <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-            <h3>Sub-heading</h3>
-            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <ul>
-              <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-              <li>Donec id elit non mi porta gravida at eget metus.</li>
-              <li>Nulla vitae elit libero, a pharetra augue.</li>
-            </ul>
-            <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-            <ol>
-              <li>Vestibulum id ligula porta felis euismod semper.</li>
-              <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
-              <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
-            </ol>
-            <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
-          </div><!-- /.blog-post -->
+            <p class='blog-content'>While TypeScript has some new syntax, it ends up compiling to JavaScript and one of the features it adds on is compile-time checks on your code. When my boss described that to me, I was like, 'So it's like a linter! COOL!' And he responded, 'Yes, at it's most basic level, you could say that…’ He was right. It is much much more than that.</p>
+            <p class='blog-content'>With TypeScript you can write with more classical object-oriented programming patterns that people familiar in Java or C# would be used to. This is the ‘optional type’ part of TypeScript. For example:</p>
+            <pre><code>var cheese = 'bobcat';</code></pre>
+            <p class='blog-content'>Thats’s valid JavaScript. But in TypeScript you can do:</p>
+            <pre><code>var cheese: string|number = ‘bobcat’;</code></pre>
+            <p class='blog-content'>Whattttt?</p>
+            <p class='blog-content'>Basically that’s doing the same thing but in the TypeScript version, you’re stating that the value of cheese can only ever be a string or a number.
+            This example is also fine:</p>
+            <pre><code>var cheese: string|number = 23;</code></pre>
+            <p class='blog-content'>However the next example would immediately have an angry squiggly red line underneath it (granted you’re doing a ```tsc -w``` command that watches your file and re-compiles every time you save. If not, when you compile, an error will come up in your terminal):</p>
+            <pre><code>var cheese: string|number = [23, ‘bobcat’];</code></pre>
+            <p class='blog-content'>The angry squiggly red line immediately points you to the problem, tying to the first feature I mentioned of compile-time checks. My mind was blown! Imagine all the time I could have saved instead of Sherlock Holmes-ing it through files of code for a dumb dumb error like that.</p>
+            <p class='blog-content'>Actually I’ll do a better example:</p>
+            <pre><code>
+              function area(height: number, width: number): number {
+                return height * width;
+              }
+              area(5, 5); // will pass fine
+              area('5', '5'); // will throw error
+            </code></pre>
+            <p class='blog-content'>So what’s the difference between the two function calls above? Well the first function call will pass fine because we’re passing in numbers (the correct type of parameters). However, in the second function an error will occur because we’re passing in strings. TypeScript will show us, even before running the script, that we’ve forgotten to convert the user input. Why does this matter? Because what if the next function we run was expecting a number returned? It will break everything and it will take you an hour to realize - damn, I forgot to parse/number that value, why didn’t I listen and use Typescript? These are pretty basic examples but already showcases the huge potential TypeScript can bring to developing and maintaining large applications.</p>
+            <p class='blog-content'>With the release of Angular 2, more people will be developing in TypeScript (more on that <a href='https://vsavkin.com/writing-angular-2-in-typescript-1fa77c78d8e8#.7p1xrnpk0' target="_blank">here</a>. The article also dives deeper into why TypeScript is dopesauce) and I am pretty stoked to continue building my skills. I know there will be JS purists out there smirking at everything I’ve just written but hey - what do I know? I’m just a junior dev ¯\_(ツ)_/¯</p>
+            <p class='blog-content'>I have already been tasked with a new project (Django and Python, and had to set up my environment using Docker containers — yikes! (maybe more on that later. I’m still a bit traumatized from the experience)) and for the time being, it’s goodbye TypeScript. You know that feeling when a waiter comes to your table with a tray of food and then realises he got the wrong table? Yes that heartbreak is the <strong>*exact*</strong> same feeling I got when I was assigned to Django. Sigh.</p>
+          </div>
 
           <div class="blog-post">
-            <h2 class="blog-post-title">Another blog post</h2>
-            <p class="blog-post-meta">December 23, 2013 by <a href="#">Jacob</a></p>
-
-            <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-            <blockquote>
-              <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            </blockquote>
-            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-          </div><!-- /.blog-post -->
-
-          <div class="blog-post">
-            <h2 class="blog-post-title">New feature</h2>
-            <p class="blog-post-meta">December 14, 2013 by <a href="#">Chris</a></p>
-
-            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <ul>
-              <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-              <li>Donec id elit non mi porta gravida at eget metus.</li>
-              <li>Nulla vitae elit libero, a pharetra augue.</li>
-            </ul>
-            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-            <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-          </div><!-- /.blog-post -->
-
-          <nav>
-            <ul class="pager">
-              <li><a href="#">Previous</a></li>
-              <li><a href="#">Next</a></li>
-            </ul>
-          </nav>
-
+            <h2 class="blog-post-title">More Coming Soon!</h2>
+            <p class="blog-post-meta">November 28, 2016</p>
+            <hr>
+            <p class='blog-content'>I've been putting off starting a blog for some time - with job searching and learning all the tools, frameworks, algorithms and interview skills required to get said job, it's easy to put content writing aside.</p>
+            <p class='blog-content'>That said, the first step is the hardest and I plan to fill this blog with interest pieces, projects I'm working on, challenges I come across, and explanations of concepts or tools that I myself found difficult to process - all with the aim of a) digging deeper, b) doing a better job explaining and talking about programming, and c) learning from teaching someone else/putting thought to paper.</p>
+            <p class='blog-content'>A bit of background about myself - I'm a junior developer that went through Code Fellows, a programming bootcamp based in Seattle, specialising in the full-stack JavaScript development track. While I think Code Fellows exceeded my expectations and I had a wonderful time with the instructors and other students - I feel there is still a large gap in my knowledge of Computer Science fundamentals and even JavaScript fundamentals.</p>
+            <p class='blog-content'>This is completely understandable - bootcamps are aimed to take you from zero knowledge to a "job ready" professional in X weeks (typically 14-20 weeks). For a while I struggled with these feelings of inadequacy - that I should know everything about JavaScript fundamentals, have OOP and functional programming concepts locked down, know my stack (MEAN) inside-out, have top-notch whiteboarding skills and still have time to sleep at night.</p>
+            <p class='blog-content'>I took a long, deep breath and began talking to other devs and hiring managers. While they are looking for the best person to join their teams, they understand my background and experience, and they value my potential higher than what I can do at a whiteboard right there and then. I definitely think that's the key that took my stress levels way down.</p>
+            <p class='blog-content'>I am a junior developer that did 180 on my career path. While my skills should be taken at face value, this career transition and how far I've come within a year, proves I have a high capacity for learning and that I am incredibly passionate about what I do.</p>
+            <p class='blog-content'>^ That is what I needed to believe. That is what I needed to own. Sure enough - I got a job offer at the next job I interviewed at.</p>
+          </div>
         </div><!-- /.blog-main -->
 
-        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-          <div class="sidebar-module sidebar-module-inset">
-            <h4>About</h4>
-            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-          </div>
-          <div class="sidebar-module">
-            <h4>Archives</h4>
-            <ol class="list-unstyled">
-              <li><a href="#">March 2014</a></li>
-              <li><a href="#">February 2014</a></li>
-              <li><a href="#">January 2014</a></li>
-              <li><a href="#">December 2013</a></li>
-              <li><a href="#">November 2013</a></li>
-              <li><a href="#">October 2013</a></li>
-              <li><a href="#">September 2013</a></li>
-              <li><a href="#">August 2013</a></li>
-              <li><a href="#">July 2013</a></li>
-              <li><a href="#">June 2013</a></li>
-              <li><a href="#">May 2013</a></li>
-              <li><a href="#">April 2013</a></li>
-            </ol>
-          </div>
-          <div class="sidebar-module">
-            <h4>Elsewhere</h4>
-            <ol class="list-unstyled">
-              <li><a href="#">GitHub</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Facebook</a></li>
-            </ol>
-          </div>
-        </div><!-- /.blog-sidebar -->
-
       </div><!-- /.row -->
+      <hr />
+
+      <footer>
+        <a href="https://www.linkedin.com/in/sabrinatee" target="_blank"><i class="fa fa-linkedin fa-2x fa-fw" aria-hidden="true"></i></a>
+        <a href="https://github.com/sabbyt/" target="_blank"><i class="fa fa-github fa-2x fa-fw" aria-hidden="true"></i></a>
+        <a href= "mailto:sabrinatee@me.com"><i class="fa fa-envelope fa-2x fa-fw" aria-hidden="true"></i></a>
+      </footer>
 
     </div><!-- /.container -->
   </body>
